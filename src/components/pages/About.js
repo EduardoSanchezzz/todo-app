@@ -1,8 +1,9 @@
 import React from "react";
+import "../../App.css";
 
 function About() {
   return (
-    <React.Fragment>
+    <div className="about">
       <h1> About </h1>
       <p>
         {" "}
@@ -13,7 +14,7 @@ function About() {
         https://jsonplaceholder.typicode.com/
       </p>
       <p>Created By Eduardo Sanchez</p>
-    </React.Fragment>
+    </div>
   );
 }
 
