@@ -50,7 +50,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <Router basename="/todo-app">
         <div className="container">
           <Header />
           <div className="App">
